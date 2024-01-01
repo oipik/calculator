@@ -37,12 +37,22 @@
     color: #ED0E98;
 }
 
+.theme {
+    border: 2px solid #E9E9E9;
+}
+
 .dark {
     .btn {
         color: #FFF;
-        background-color: #323439;
+        background-color: #27292E;
     }
     .action {
         background-color: #323439;
+    }
+    .ac {
+        color: #ED0E98;
+    }
+    .theme {
+        border: 2px solid #323439;
     }
 }
