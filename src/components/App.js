@@ -43,11 +43,11 @@ function App() {
     }
 
     const handleInputValue = (val) => {
-        if ((val >= 0 || val <= 9) && value != "") {
+        if ((val >= 0 || val <= 9) && value !== "") {
             setValue("");
             setRec("")
             setRec(rec => rec + val)
-        } else if ( (val === "%" || val === "/" || val === "*" || val === "-" || val === "+") && value != "") {
+        } else if ( (val === "%" || val === "/" || val === "*" || val === "-" || val === "+") && value !== "") {
             setValue("");
             setRec(value + val);
         } else if (val !== "=") {
